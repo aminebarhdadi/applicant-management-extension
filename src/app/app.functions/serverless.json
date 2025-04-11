@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "getApplicantData": {
+      "file": "getApplicantData.js",
+      "secrets": []
+    }
+  }
+}

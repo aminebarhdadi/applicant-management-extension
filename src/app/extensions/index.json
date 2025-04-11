@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": { 
+    "title": "Bewerber Übersicht", 
+    "uid": "applicant_card_01",   
+    "location": "crm.record.tab", 
+    "module": {
+      "file": "index.jsx" 
+    },
+    "objectTypes": [
+      {
+        "name": "p_bewerber"
+      }
+    ]
+  }
+}

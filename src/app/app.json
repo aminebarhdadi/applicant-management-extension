@@ -1,0 +1,25 @@
+{
+  "name": "Bewerber Management Extension",
+  "description": "A HubSpot CRM card to manage Applicant data",
+  "uid": "bewerber-management-extension",
+  "scopes": [
+    "crm.objects.custom.read",
+    "crm.schemas.custom.read",
+    "crm.schemas.contacts.read",
+    "crm.objects.contacts.read",
+    "files"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/index.json"
+        }
+      ]
+    }
+  },
+  "webhooks": {
+    "file": "./webhooks/webhooks.json"
+  }
+}
