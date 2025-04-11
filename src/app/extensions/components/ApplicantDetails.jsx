@@ -10,7 +10,7 @@ import ResumeViewer from './ResumeViewer';
 const ApplicantDetails = ({ applicantData }) => {
   if (!applicantData) {
     return <Text>Keine Bewerberdaten verfügbar.</Text>;
-  }
+  } 
 
   return (
     <Flex direction="column" gap="md">
